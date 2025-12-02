@@ -3,52 +3,55 @@
    <head>
        <title>BIRGIRs       </title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="/css/style.css">
    </head>
    <body>
         <header>
-            <h1>Välkommen till BirgirsOnline</h1>
+            <img src="/img/header.png" alt="header image">
+            <h1>Välkommen till TragicBirgirs</h1>
         </header>
         <main>
-            <section>
+            <section id="burgerSection">
             <h2> Välj birgir </h2>
                 <p> Välj bland de bästa BiRgIrS </p>
-            </section>
-            <section>
-                <div style="display: inline-block">
+            
+            <div class="wrapper">
+                <div>
                     <h3>
                         BeerOclockBiRgIr
                     </h3>
-                    <img src="/Users/christofferlundh/Desktop/interfaceprogramming/1MD031-lab-2024/public/img/beerBurger.jpg" alt="A Tragic Birgir" style="width: 300px;">
+                    <img src="/img/beerBurger.jpg" alt="A Tragic Birgir 1" style="width: 300px;">
                     <ul>
-                        <li> kan innehålla alkohol </li>
-                        <li> spår av kött kan förekomma </li>
+                        <li> kan innehålla <span id="alkohol"> alkohol </span> och <span class="gluten"> gluten </span> </li>
+                        <li> spår av <span id="meat"> kött</span> kan förekomma </li>
                         <li> smakar som den ser ut, det vill säga skit </li>
                     </ul>
                 </div>
-                <div style="display: inline-block">
+                <div> 
                     <h3>
                         SadBiRgIr
                     </h3>
-                    <img src="/Users/christofferlundh/Desktop/interfaceprogramming/1MD031-lab-2024/public/img/sadburger.jpeg" alt="A Tragic Birgir" style="width: 300px;">
+                    <img src="/img/sadburger.jpeg" alt="A Tragic Birgir 2" style="width: 300px;">
                     <ul>
                         <li> Är torrare än saharas öknen </li>
-                        <li> Du bör inte äta ifall du har någon typ av allergi (eller bara i allmänhet) </li>
+                        <li> <span id="dontEat">Du bör inte äta ifall du har någon typ av allergi (eller bara i allmänhet)</span> </li>
                         <li> Kan ge dig diagnostiserad depression </li>
                     </ul>
                 </div>
-                <div style="display: inline-block">
+                <div>
                     <h3>
                         BigBoyBiRgIr
                     </h3>
-                    <img src="/Users/christofferlundh/Desktop/interfaceprogramming/1MD031-lab-2024/public/img/bigboy.jpeg" alt="A Tragic Birgir" style="width: 300px;">
+                    <img src="/img/bigboy.jpeg" alt="A Tragic Birgir 3" style="width: 300px;">
                     <ul>
-                        <li> spår av glutan kan eventuellt finnas </li>
+                        <li> spår av <span class="gluten"> gluten </span>  kan eventuellt finnas </li>
                         <li> Kan ge dig diarré </li>
                         <li> bör avnjutas med en laddad glock 19 </li>
                     </ul>
                 </div>
+            </div>
             </section>
-            <section>
+            <section id="informationSection">
                 <h2> Ge mig all din inforamtion</h2>
                     <p> Ge mig dina personuppgifter </p>
 
@@ -85,12 +88,11 @@
                         <label for="option3">Vill ej berätta</label> <br><br>
                         
                     </form>
-                    <button type="submit">
-                        <img src="/Users/christofferlundh/Desktop/interfaceprogramming/1MD031-lab-2024/public/img/skicka.png" alt="skicka" style="width: 50px;">
+            </section>  
+            <button type="submit">
+                        <img src="/img/Skicka.png" alt="skicka" style="width: 50px;">
                         beställ nu!!!!!
                     </button>
-
-            </section>  
         </main>
         <hr>
     <footer>

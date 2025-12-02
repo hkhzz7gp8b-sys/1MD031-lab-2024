@@ -1,64 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
     font-size: 12pt;
+    font-family: "Gill sans", sans-serif;
 }
+header{
+    margin: 25px;
+    position: relative;
+    color: rgb(181, 0, 0);
+}
+header h1{
+    position: absolute;
+    top: 38%;
+    left: 33%;
 
-p {
-    color: red;
+   
+ 
 }
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
-main, header, footer, nav ul {
-    max-width: 40rem;
-    margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
-}
-
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
-
-header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
-    overflow: hidden;
+header img{
+    opacity: 0.7;
     width: 100%;
-    height: 200px;
-    opacity: 0.5;
 }
 
-header h1 {
-    width:40rem;
-    margin: 0 auto;
-    text-align: center;
+h2 {
+    margin: 10px
+}
+h3 {
+    margin: 10px 
+}
+p {
+    margin: 10px 
+}
+form {
+    margin: 10px 10px 0 10px 
+} 
+
+
+.gluten {font-weight: bold;}
+#alkohol {font-weight: bold;}
+#meat {font-weight: bold;}
+#dontEat {font-weight: bold;
+width: 300px;}
+
+#burgerSection {
+    background-color: black;
+    color: white;
+    border: 2px dashed white;
+}
+#informationSection {
+    background-color: white;
+    border: 2px dashed black;
 }
 
-nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
-    padding: 0;
+
+button{
+    margin: 0 25px;
 }
 
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
+button:hover {
+   background-color: green;
+   cursor: pointer;
 }
 
-.Very-good {
-    color: green;
+section{
+    margin: 25px;
 }
-
-.Master {
-    color: green;
-    font-weight: bold;
+div{
+    margin: 10px;
+    padding: 10px;  
+}
+.wrapper {
+     display: grid;
+     grid-gap: 10px;
+     grid-template-columns: 25% 25% 25%;
 }
